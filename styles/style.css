@@ -114,9 +114,10 @@ text-align: center;
 
 }
 .section-title{
-margin-bottom:30px;
+margin-bottom:50px;
 font-size:35px;
 font-weight:700;
+text-align: center;
 }
 .banner-description{
     color:#757575;
@@ -144,3 +145,92 @@ font-weight:700;
     color: #474747;
    
 }
+/* what i do styles */
+.what-i-do{
+    margin-top:130px;
+
+}
+.skill-container{
+    display:flex;
+    gap:24px;
+}
+.skill{
+    background:#FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding:30px;
+}
+.skill-title{
+    font-size:20px;
+    font-weight:700;
+    margin-top: 30px;
+    margin-bottom:20px;
+
+}
+.skill-description{
+    color:#757575
+}
+/* summary resume styles */
+
+.section-title{
+
+    margin-top: 100px;
+    /* width:200px; */
+    text-align: center;
+    font-size: 46px;
+    
+}
+
+
+.summary-resume .section-title{
+    /* margin-top: 50px; */
+    text-align: center;
+
+}
+.resume-title{
+    display:flex;
+   justify-content: space-around;
+   /* gap:45px; */ 
+   font-size: 35px;
+   
+
+}
+.education .heading ,.experience .heading{
+    font-size: 25px;
+    font-weight:700;
+    /* margin-bottom: 15PX; */
+    margin-top: 10px;
+    color:#474747;
+   
+
+}
+   
+
+.education, .experience{
+    width:400px;
+}
+
+.education .sub-heading ,.experience .sub-heading{
+    font-size:20px;
+    margin-top: 5px;
+}
+
+
+.education .resume-description ,.experience .resume-description{
+    font-size:16px;
+    margin-top: 8px; 
+    margin-bottom: 15px;
+    color:#757575
+
+}
+.download{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+
+
+    
