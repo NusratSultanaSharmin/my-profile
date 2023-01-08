@@ -35,6 +35,8 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
+    margin-top:0;
+    padding-top:50px;
 }
 
 nav ul {
@@ -227,9 +229,49 @@ text-align: center;
     display:flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
+/* footer section */
+.footer-section{
+    display:flex;
+    background-color:#FFF8F3;
+    padding: 130px;
+    justify-content:center;
+    gap:100px;
+
+
+}
+
+.footer-title{
+    font-size: 35px;
+    font-weight:700;
+
+}
+.left-footer{
+    width:600px;
+}
+.right-footer input,.right-footer textarea{
+    display: block;
+    padding: 20px;
+    margin: 16px;
+    border:none;
+    font-size: 18px;
+}
+.left-footer *{
+    margin-bottom: 25px;
+
+}
+
+.right-footer .btn-primary{
+    margin:16px;
+} 
+
+.left-footer a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+
 
 
 
