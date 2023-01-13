@@ -1,0 +1,108 @@
+@media screen and (max-width:576px) {
+
+    /* .nav, */
+    .skill-container,
+    .resume-title,
+    .about-info-container,
+    .left-footer {
+        flex-direction: column;
+        gap: 20px;
+        /* padding:10px 20px ; */
+    }
+    nav{
+        /* flex-direction: column; */
+
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap:10px;
+        align-items: flex-start;
+    }
+    .nav-title{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    .resume-title {
+        width: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+
+    .resume-description,
+    .heading {
+        width: 98vw;
+        margin: 1vw;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        padding: 10px 20px;
+
+    }
+
+    .left-footer {
+        width: 300px;
+        margin-left: 25px;
+    }
+    .header{
+        height: 100vh;
+        padding: 0;
+    }
+    .header img{
+        padding: 0;
+        height: 600px;
+        width: 100%;
+        margin-top: -60px !important; 
+        transform: scale(1.1);
+        
+    }
+    .header {
+        background-color: #FFF8F3;
+        background-image: none;
+        
+    }
+    .header button{
+        margin-right: 10px !important;
+    }
+    
+
+    .heading {
+        font-size: 20px !important;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-left: 50px;
+        height: 20%;
+        margin-bottom: 0;
+    }
+
+    .banner * {
+        font-size: 16px !important;
+        padding: 0 !important;
+        margin:0 !important;
+        margin-bottom: 10px !important;
+
+    }
+
+    .btn-primary {
+        height:30px;
+        width: auto;
+        font-size: 10px;
+        font-weight: 400;
+        padding:5px !important;
+    }
+
+
+
+
+}

@@ -2,11 +2,12 @@
     margin: 0;
     font-family: 'Open Sans';
 }
-.header{
-    background-color:#FFF8F3;
-    background-image:url('../images/header_bg.png') ,url('../images/developer.png');
-    background-repeat:no-repeat;
-    background-position: right bottom,left;
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
 }
 
 
@@ -35,8 +36,8 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
-    margin-top:0;
-    padding-top:50px;
+    margin-top: 0;
+    padding-top: 50px;
 }
 
 nav ul {
@@ -58,11 +59,12 @@ Nav li {
     /* align-items: center; */
     justify-content: space-between;
     height: 70vh;
-    margin-left:200px;
-   
+    margin-left: 200px;
+
 }
-.banner div{
-    margin-top:100px;
+
+.banner div {
+    margin-top: 100px;
 
 }
 
@@ -90,189 +92,232 @@ Nav li {
 
 .btn-secondary {
 
-    color:#fd6f0ad6;
-    border-color:#fd6f0ac2;
+    color: #fd6f0ad6;
+    border-color: #fd6f0ac2;
     border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
-    margin:30px;
+    margin: 30px;
 }
+
 /* main section */
 
-main{
-    max-width:1140px;
-    margin:0 auto
+main {
+    max-width: 1140px;
+    margin: 0 auto
 }
+
 /* about section */
 
-.about{
-margin-top:130px;
-padding:130px 150px;
-background-color:#FFF8F3;
-border-radius: 10px;
-text-align: center;
+.about {
+    margin-top: 130px;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
 
 
 }
-.section-title{
-margin-bottom:50px;
-font-size:35px;
-font-weight:700;
-text-align: center;
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
 }
-.banner-description{
-    color:#757575;
+
+.banner-description {
+    color: #757575;
     font-size: 18px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 
 }
 
-.about-info-containner{
-    display:flex;
+.about-info-container {
+    display: flex;
     justify-content: space-around;
-    gap:10px;
+    gap: 10px;
 
 }
-.about .info-title{
-    font-size:20px;
-    color:#757575;
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
     text-align: center;
     margin-top: 30px;
 
 }
-.info-description{
-    font-weight:700;
-    font-size:20px;
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
     color: #474747;
-   
-}
-/* what i do styles */
-.what-i-do{
-    margin-top:130px;
 
 }
-.skill-container{
-    display:flex;
-    gap:24px;
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+
 }
-.skill{
-    background:#FFFFFF;
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding:30px;
+    padding: 30px;
 }
-.skill-title{
-    font-size:20px;
-    font-weight:700;
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
     margin-top: 30px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
-.skill-description{
-    color:#757575
+
+.skill-description {
+    color: #757575
 }
+
 /* summary resume styles */
 
-.section-title{
+.section-title {
 
     margin-top: 100px;
     /* width:200px; */
     text-align: center;
     font-size: 46px;
-    
+
 }
 
 
-.summary-resume .section-title{
+.summary-resume .section-title {
     /* margin-top: 50px; */
     text-align: center;
 
 }
-.resume-title{
-    display:flex;
-   justify-content: space-around;
-   /* gap:45px; */ 
-   font-size: 35px;
-   
+
+.resume-title {
+    display: flex;
+    justify-content: space-around;
+    /* gap:45px; */
+    font-size: 35px;
+
 
 }
-.education .heading ,.experience .heading{
+
+.education .heading,
+.experience .heading {
     font-size: 25px;
-    font-weight:700;
+    font-weight: 700;
     /* margin-bottom: 15PX; */
     margin-top: 10px;
-    color:#474747;
-   
+    color: #474747;
+
 
 }
-   
 
-.education, .experience{
-    width:400px;
+
+.education,
+.experience {
+    width: 400px;
 }
 
-.education .sub-heading ,.experience .sub-heading{
-    font-size:20px;
+.education .sub-heading,
+.experience .sub-heading {
+    font-size: 20px;
     margin-top: 5px;
 }
 
 
-.education .resume-description ,.experience .resume-description{
-    font-size:16px;
-    margin-top: 8px; 
+.education .resume-description,
+.experience .resume-description {
+    font-size: 16px;
+    margin-top: 8px;
     margin-bottom: 15px;
-    color:#757575
-
+    color: #757575
 }
-.download{
-    display:flex;
+
+.download {
+    display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 40px;
 
 }
+
 /* footer section */
-.footer-section{
-    display:flex;
-    background-color:#FFF8F3;
+.footer-section {
+    display: flex;
+    background-color: #FFF8F3;
     padding: 130px;
-    justify-content:center;
-    gap:100px;
+    justify-content: center;
+    gap: 100px;
 
 
 }
 
-.footer-title{
+.footer-title {
     font-size: 35px;
-    font-weight:700;
+    font-weight: 700;
 
 }
-.left-footer{
-    width:600px;
+
+.left-footer {
+    width: 600px;
 }
-.right-footer input,.right-footer textarea{
+
+.right-footer input,
+.right-footer textarea {
     display: block;
     padding: 20px;
     margin: 16px;
-    border:none;
+    border: none;
     font-size: 18px;
 }
-.left-footer *{
+
+.left-footer * {
     margin-bottom: 25px;
 
 }
 
-.right-footer .btn-primary{
-    margin:16px;
-} 
+.right-footer .btn-primary {
+    margin: 16px;
+}
 
-.left-footer a{
+.left-footer a {
     text-decoration: none;
     margin-right: 5px;
 }
 
+/* Responsive Styles */
 
 
 
-    
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    /* .about,
+    .contact {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    /* .contact input[type= "text"] , input[type="email"] ,textarea{ */
+
+    .footer-section {
+        flex-direction: column;
+
+    }
+
+}
